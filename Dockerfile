@@ -7,6 +7,6 @@ RUN apt-get update && apt-get install -y \
 && cd ~ \
 && git clone https://github.com/smtrat/carl \
 && cd ~/carl \
-&& git checkout tags/17.12 \
+&& git checkout tags/18.04 \
 && mkdir build && cd build && cmake ../ \
 && make
