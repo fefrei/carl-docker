@@ -14,7 +14,7 @@ RUN git config --global user.email "felix@fefrei.de" \
 RUN cd ~ \
 && git clone https://github.com/smtrat/carl \
 && cd ~/carl \
-&& git checkout master
+&& git checkout 18.12
 RUN cd ~/carl \
 && mkdir build && cd build && cmake ../ \
 && make
